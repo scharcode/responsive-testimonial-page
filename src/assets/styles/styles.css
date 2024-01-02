@@ -61,12 +61,12 @@ body {
 .testimonial-container:nth-child(2) {
   position: absolute;
   top: 135px;
-  right: 150px;
+  left: 980px;
 }
 .testimonial-container:nth-child(3) {
   position: absolute;
   top: 375px;
-  right: 364px;
+  left: 780px;
 }
 .testimonial-container .logo {
   width: 84px;
@@ -87,4 +87,27 @@ body {
   color: #52525A;
   width: 286px;
   margin-bottom: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  body {
+    background-color: #FAFAF9;
+  }
+  .main-container {
+    display: inline-block;
+    height: 150vh;
+  }
+  .primary-container {
+    margin-top: 75px;
+    margin-left: 25px !important;
+  }
+  .testimonial-container:nth-child(2) {
+    top: 550px;
+    left: 160px;
+  }
+  .testimonial-container:nth-child(3) {
+    top: 785px;
+    left: 48px;
+  }
 }
