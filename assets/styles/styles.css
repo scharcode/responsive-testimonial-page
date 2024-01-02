@@ -1,0 +1,113 @@
+/* General styles */
+body {
+  font-family: 'Sora', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container styles */
+.main-container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #FAFAF9;
+}
+
+/* Primary container styles */
+.main-container .primary-container {
+  margin-left: 120px;
+}
+.main-container .primary-container figure {
+  display: grid;
+  place-content: center;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0;
+  background-color: #F5C044;
+}
+.main-container .primary-container .title {
+  font-size: 36px;
+  color: #18181B;
+  margin: 16px 0;
+}
+.main-container .primary-container .page-description-text {
+  font-size: 20px;
+  line-height: 32px;
+  color: #52525A;
+  width: 560px;
+}
+.main-container .primary-container ul {
+  list-style-image: url(../images/Done_ring_round_fill.svg);
+  padding-left: 30px;
+  margin-top: 34px;
+}
+.main-container .primary-container ul li {
+  font-size: 14px;
+  color: #52525A;
+  margin-bottom: 10px;
+}
+/* Testimonial Container Styles */
+.testimonial-container {
+  width: 335px;
+  padding: 0 0 32px 36px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 14px #D4D4D8;
+}
+.testimonial-container:nth-child(2) {
+  position: absolute;
+  top: 135px;
+  left: 980px;
+}
+.testimonial-container:nth-child(3) {
+  position: absolute;
+  top: 375px;
+  left: 780px;
+}
+.testimonial-container .logo {
+  width: 84px;
+  margin: 30px 12px -3px 0px;
+}
+.testimonial-container .stars {
+  width: 22px;
+}
+.testimonial-container h3 {
+  font-size: 16px;
+  color: #18181B;
+  width: 128px;
+  margin-bottom: -2px;
+}
+.testimonial-container p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #52525A;
+  width: 286px;
+  margin-bottom: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  body {
+    background-color: #FAFAF9;
+  }
+  .main-container {
+    display: inline-block;
+    height: 150vh;
+  }
+  .primary-container {
+    margin-top: 75px;
+    margin-left: 25px !important;
+  }
+  .testimonial-container:nth-child(2) {
+    top: 550px;
+    left: 160px;
+  }
+  .testimonial-container:nth-child(3) {
+    top: 785px;
+    left: 48px;
+  }
+}
