@@ -1,0 +1,29 @@
+{
+  "name": "responsive-testimonial-page",
+  "version": "1.0.0",
+  "description": "This is a project based on one of the devChallenges challenges. It is a dedicated project for web developers who are starting their career as a front-end developer.",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scharcode/responsive-testimonial-page.git"
+  },
+  "keywords": [
+    "responsive",
+    "testimonial",
+    "page",
+    "html",
+    "css"
+  ],
+  "author": "Andrés Soret Chacin <andressocha230@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scharcode/responsive-testimonial-page/issues"
+  },
+  "homepage": "https://github.com/scharcode/responsive-testimonial-page#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
